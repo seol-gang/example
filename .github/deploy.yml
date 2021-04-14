@@ -1,5 +1,5 @@
 production:
-  auto_deploy_on: refs/heads/master
+  auto_deploy_on: refs/tags/*
   environment: production
   production_environment: true
 
