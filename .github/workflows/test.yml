@@ -4,11 +4,19 @@ on: [push]
 
 jobs:
   build:
-
     runs-on: 'ubuntu-latest'
 
     steps:
-    - name: 'Checkout'
-      uses: 'actions/checkout@master'
-    - name: 'Test'
-      run: 'echo "ok"'
+      - name: 'Checkout'
+        uses: 'actions/checkout@master'
+      - name: 'Test'
+        run: 'echo "ok"'
+
+jobs2:
+  build:
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: 'Checkout'
+        uses: 'actions/checkout@master'
+      - name: 'Test'
+        run: 'echo "ok"'
