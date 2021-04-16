@@ -1,4 +1,4 @@
-# Deliverybot Example haha hoho1 32 5678901290101234702122456343471232
+# Deliverybot Example
 
 1. Click the "Use this template" button to create a new fork of this repository.
 
