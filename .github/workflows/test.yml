@@ -12,8 +12,7 @@ jobs:
       - name: 'Test'
         run: 'echo "ok"'
 
-jobs2:
-  build:
+  build2:
     runs-on: 'ubuntu-latest'
     steps:
       - name: 'Checkout'
